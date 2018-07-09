@@ -34,13 +34,17 @@ Once you have a "fork" of the repository on your own account, you want to clone 
 
 > **Protip**: If you made SSH keys in class, you should use the SSH link. Otherwise, you can use the HTTPS link and you will get prompted for a password before the cloning takes place.
 
-Once you have this link copied, go to your terminal and run the command `git clone THE_LINK_YOU_COPIED`. 
+Once you have this link copied, go to your terminal and run the command 
+
+```bash
+git clone THE_LINK_YOU_COPIED
+``` 
 
 > **Warning**: Make sure the location you clone at is not inside of another git repository!
 
 In general, when coding, we don't repeat ourselves, but let's say it again. A git repository should NOT live inside another git repository!
 
-Did you read the sentence previous to this one? Read it again! Say it out loud! Tell the person next to you! :)
+Did you read the sentence previous to this one? Read it again! Say it out loud! Tell the person next to you! 😊
 
 > **Note**: In future assignments, steps 1 and 2 will be referred to as a single unit. You might see a direction like "fork and clone this repository".
 
@@ -72,7 +76,7 @@ or
 code .
 ``` 
 
-#### 5. Answer the Quiz Questions Below
+#### 5. Answer the [Quiz Questions](#quiz-questions) Below
 
 Test your Googling skills and learn something new about Git! Put your answers into the file called `answers.txt`. The file is already provided for you, just fill in your own answers. Please number them!
 
@@ -98,7 +102,7 @@ You can add files to be staged for (ready to go into) the next commit. The follo
 git add .
 ```
 
-> **Protip**: The `git init` command is only necessary when you're starting a repository from scratch! Since we used the `clone` command, we already have an initialized repository. 
+> **Protip**: The `git init` command is only necessary when you're starting a repository from scratch! Since we used the `git clone` command, we already have an initialized repository. 
 
 #### 9. Commit to it!
 
@@ -122,7 +126,7 @@ In this case, `origin` refers to Github — where the code originated! We can us
 
 The `master` at the end of the command refers to the *branch*. Master is always the default branch, and for now, it's the only one we'll use. Later in the course we'll get into branches. 
 
-11. One Last Step!!!
+#### 11. One Last Step!!!
 
 Go into your internet browser and refresh the page with your forked repository. Do you see your changes on Github now?
 
