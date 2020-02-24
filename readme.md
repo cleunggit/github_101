@@ -1,6 +1,6 @@
 # Github 101
 
-Congrats on completing your first day of WDI! Let's do a little review quiz and while we're at it, get a little practice using Github!
+Congrats on completing your first day of SEI! Let's do a little review quiz and while we're at it, get a little practice using Github!
 
 > **Reminder**: Github is your friend, not your enemy!
 
