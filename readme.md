@@ -14,27 +14,17 @@ Remember, *git* and *github* are two different things! Git is a version control 
 
 ### Tracking files: What is a .gitignore file?
 
-You may or may not have encountered a file called `.gitignore`. This file tells git not to track certain files. Here are a few reasons we might want to do this:
+You may or may not have encountered a file called `.gitignore`. If you haven't, that's fine - you will soon enough! This file tells git *not* to track certain files. Here are a few reasons we might want to do this:
 
-1. Sometimes we have private data (e.g., API keys) in `.env` files
-1. Packages you use may have very long names or just a ton of content / dependencies. In our case, we'll be using NodeJS and will always want to exclude the gigantic `node_modules` folder. This saves us a lot of time!
-1. Including these files and folders may complicate or mess up your deployments.
+1. Sometimes we have private data (e.g., API keys) in `.env` files that doesn't belong on the internet
+1. Sometimes we have files / folders that are huge and it can save us a lot of time to just not include them
+  * Once we get to unit 2, we'll always want to exclude the gigantic `node_modules` folder! 
+1. Including these files and folders may complicate or mess up your deployments
+  * Don't complicate your life 🙂
 
-Quiz yourself on the following questions:
+We won't need to create or use these files ourselves until unit 2, so don't sweat it if you're not yet a git master! For now, we just wanted to let you know what that file was that you may have stumbled across.
 
-<details>
-<summary>Does it have to be called "gitignore"?</summary>
-  Answer: Yes! Git specifically looks for a file with this name
-</details>
-
-<details>
-<summary>Does it have to be at the root level of a project?</summary>
-  Answer: This is where it will usually live, but we can have them in subfolders as well.
-  
-  Git's docs say, "Patterns read from a .gitignore file in the same directory as the path, or in any parent directory, with patterns in the higher level files (up to the toplevel of the work tree) being overridden by those in lower level files down to the directory containing the file."
-</details>
-
-> Note: If you're already familiar with Git, you can dig further into [how and why we use gitignore files in Git's docs](https://git-scm.com/docs/gitignore) or you can generate an exhastive list of files and folder you may want to ignore at [http://gitignore.io/](http://gitignore.io/).
+> Note: If you're already familiar with Git, you can dig further into [how and why we use gitignore files in Git's docs](https://git-scm.com/docs/gitignore) or you can generate an exhastive list of files and folders you may want to ignore at [http://gitignore.io/](http://gitignore.io/).
 
 ### Commit Messages: Best Practices
 
@@ -179,6 +169,12 @@ By the end of this you should have:
 #### 4. What is the git command to initialize a new repository?
 
 #### 5. In your own words, describe what the command `git push` is doing.
+
+#### 6. What is the purpose of a `.gitignore` file?
+
+#### 7. What is a fork? Why would you want to have a fork?
+
+#### 8. What is a clone? How many clones can you have?
 
 ## Additional Resources
 
