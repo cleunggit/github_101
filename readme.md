@@ -36,23 +36,25 @@ You can find a [complete list of best practices here](https://gist.github.com/ro
 
 #### 1. Fork it!
 
-On the upper righthand corner of this page, you will see a button that says `Fork`. Press that button!!! This will fork it to your personal Github account.
+On the upper righthand corner of this page, you will see a button that says `Fork`. Press that button!!! This will fork it to your personal Github account. This means that a complete copy of all the code and all the commits will be added to your Github account. Remember - a fork is a *copy* which now exists separately than the original repository that you forked from!
 
 > **Note**: If you have access to multiple accounts or organizations on Github, you may get a pop-up asking you which one you want to use. 
 
 #### 2. Clone it!
 
-Once you have a "fork" of the repository on your own account, you want to clone the code onto your local machine. Do this by copying the clone link. This is a green button to the right of the page. Clicking the copy icon will automatically copy it to your clipboard, or you can highlight the text and press `Cmd + C`.
+Once you have a "fork" of the repository on your own account, you want to clone the code onto your local machine. This means that all of the code in your Github repository (and all of the commits) will be copied onto your computer. Do this by copying the clone link. This is a green button to the right of the page. Clicking the copy icon will automatically copy it to your clipboard, or you can highlight the text and press `Cmd + C`.
 
 ![](http://res.cloudinary.com/briezh/image/upload/v1531169741/Screen_Shot_2018-07-09_at_1.55.16_PM_kb0fuq.png)
 
-> **Protip**: If you made SSH keys in class, you should use the SSH link. Otherwise, you can use the HTTPS link and you will get prompted for a password before the cloning takes place.
+> **Protip**: If you made SSH keys in class, you should use the SSH link. Otherwise, you can use the HTTPS link. 
 
 Once you have this link copied, go to your terminal and run the command 
 
 ```bash
 git clone THE_LINK_YOU_COPIED
 ``` 
+
+You may or may not be prompted for a password before the clone can take place.
 
 > **Warning**: Make sure the location you clone at is not inside of another git repository!
 
@@ -175,6 +177,8 @@ By the end of this you should have:
 #### 7. What is a fork? Why would you want to have a fork?
 
 #### 8. What is a clone? How many clones can you have?
+
+#### 9. Should you put a Github repository inside of another Github repository?
 
 ## Additional Resources
 
