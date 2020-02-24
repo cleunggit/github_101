@@ -180,6 +180,9 @@ By the end of this you should have:
 
 #### 9. Should you put a Github repository inside of another Github repository?
 
+#### 10. You can type `git status` at any time while in a git repository - true or false?
+
+
 ## Additional Resources
 
 * [Git Online Mini-Quiz](https://learn.co/lessons/git-basics-quiz)
