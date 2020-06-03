@@ -1,3 +1,13 @@
 Your answers go here!
 Please include your name and number your answers.
 ==================================================
+1. Git was invented by Linus Benedict Torvalds
+2. He was also famous for developing the Linux kernel
+3. Git was created in 2005
+4. git init
+5. git push is uploading the changes to Github
+6. .gitignore is to flag files/folders that shouldn't be pushed to Github
+7. A fork is a copy of a repo that allows you to freely experiment with changes without affecting the origial project
+8. A clone is a local copy of repo
+9. No
+10. True
